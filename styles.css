@@ -1,0 +1,108 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    background: url('../images/background.png') no-repeat center center fixed;
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.game-area{
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+.hole {
+    position: absolute;
+    padding-top: 800;
+    bottom: 0;
+    width: 90px;
+    height: 90px;
+    background: url('../images/hole.png') no-repeat center center;
+    background-size: cover;
+}
+.hole1 {left:  50px;}
+.hole2 {left: 200px;}
+.hole3 {left: 350px;}
+.hole4 {left: 50px; bottom: 100px;}
+.hole5 {left: 200px; bottom: 100px;}
+.hole6 {left: 350px; bottom: 100px;}
+.hole7 {left: 500px;}
+.hole8 {left: 500px; bottom: 100px;}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    font-family: 'Arial' , sans-serif;
+}
+
+#cat {
+    position: absolute;
+    width: 60px;
+    display: none;
+    z-index: 10;
+}  */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../images/background.png') no-repeat center center fixed;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-area {
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+
+.hole {
+    position: absolute;
+    bottom: 0;
+    width: 90px;
+    height: 90px;
+    background: url('../images/hole.png') no-repeat center center;
+    background-size: contain;
+}
+.hole1 {left: 50px;}
+.hole2 {left: 200px;}
+.hole3 {left: 350px;}
+.hole4 {left: 50px; bottom: 100px;}
+.hole5 {left: 200px; bottom: 100px;}
+.hole6 {left: 350px; bottom: 100px;}
+.hole7 {left: 500px;}
+.hole8 {left: 500px; bottom: 100px;}
+
+#score {
+    position: absolute;
+    bottom: -50px; /* Moves the score below the holes */
+    left: 50%;
+    transform: translateX(-50%); /* Centers the score horizontally */
+    font-size: 30px;
+    color: brown; /* Changes the font color to brown */
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* Sets font to Comic Sans */
+    padding: 0; /* Removes padding */
+    background: none; /* Removes background color */
+    border-radius: 0; /* Removes border radius */
+    box-shadow: none; /* Removes shadow */
+    text-align: center;
+}
+
+#cat {
+    position: absolute;
+    width: 60px;
+    display: none;
+    z-index: 10;
+}
