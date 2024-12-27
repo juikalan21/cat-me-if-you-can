@@ -14,7 +14,6 @@ function showCat() {
     cat.style.display = 'block' ;
 }
 
-
 cat.addEventListener('click' , () =>{
     score++;
     scoreDisplay.textContent = 'Score: ' + score ;
